@@ -1,21 +1,22 @@
+/*this is make the entirety of words on the page, aside from the nav bar, centered.*/
 body {
     margin: auto;
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     background-image: url(images/spaceman.jpg);
-    color:darkgoldenrod;
+    color:yellow;
 }
-
+/*for the background img*/
 img {
     width: 15%;
     height: 15%;
 }
-
+/*to center the ordered list*/
 ol{
     text-align: center;
 }
-
+/*this is for the navigation bar*/
 .nav {
     background-color: burlywood;
     color: black;
@@ -23,30 +24,26 @@ ol{
     text-align: left;
     padding: 0;
 }
-
+/*this is to make the list in the navbar appear vertical*/
 .nav > li {
     display: inline-block;
     padding: 20px;
     font-size: 12px;
 }
-
+/*this is to color the links, inside the list, inside the navbar*/
 .nav > li > a {
     text-decoration: none;
     color: blue;
 }
-
+/*this is to make the list change color when hovered over*/
 .nav > li > a:hover {
     color: yellowgreen;
 }
-
+/*this is to center my logo at the bottom of the page*/
 .logo {
     color: white;
     text-align: center;
     padding: 25px;
     font-size: 12px;
     font-style: italic;
-}
-
-.logo > a {
-    color: burlywood;
 }
